@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Next.js build
+.next/
+out/
+build/
+dist/
+
+# Java / Maven build
+target/
+*.class
+*.jar
+*.war
+
+# Environment & IDE
+.env
+.env*.local
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+postgres_data/
